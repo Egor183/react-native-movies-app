@@ -1,0 +1,508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies renders test Should render found movies list 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "backdrop": "https://wookie.codesubmit.io/static/backdrops/d6822b7b-48bb-4b78-ad5e-9ba04c517ec8.jpg",
+        "cast": Array [
+          "Christian Bale",
+          "Heath Ledger",
+          "Aaron Eckhart",
+        ],
+        "classification": "13+",
+        "director": "Christopher Nolan",
+        "genres": Array [
+          "Action",
+          "Crime",
+          "Drama",
+        ],
+        "id": "d6822b7b-48bb-4b78-ad5e-9ba04c517ec8",
+        "imdb_rating": 9,
+        "length": "2h 32min",
+        "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+        "poster": "https://wookie.codesubmit.io/static/posters/d6822b7b-48bb-4b78-ad5e-9ba04c517ec8.jpg",
+        "released_on": "2008-07-16T00:00:00",
+        "slug": "the-dark-knight-2008",
+        "title": "The Dark Knight",
+      },
+      Object {
+        "backdrop": "https://wookie.codesubmit.io/static/backdrops/0bf56a90-5f7b-4108-9d0b-01ad77f0a310.jpg",
+        "cast": Array [
+          "Malcolm McDowell",
+          "Patick Magee",
+          "Michael Bates",
+        ],
+        "classification": "18+",
+        "director": "Stanley Kubrick",
+        "genres": Array [
+          "Crime",
+          "Drama",
+          "Sci-Fi",
+        ],
+        "id": "0bf56a90-5f7b-4108-9d0b-01ad77f0a310",
+        "imdb_rating": 8.3,
+        "length": "2h 16min",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \\"droogs\\". But he's a boy who also likes Beethoven's Ninth and a bit of \\"the old in-out, in-out\\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "poster": "https://wookie.codesubmit.io/static/posters/0bf56a90-5f7b-4108-9d0b-01ad77f0a310.jpg",
+        "released_on": "1971-12-18T00:00:00",
+        "slug": "a-clockwork-orange-1971",
+        "title": "A Clockwork Orange",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
+  stickyHeaderIndices={Array []}
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginTop": 22.213235294117645,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#a49e9e",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 157.14285714285714,
+                "marginLeft": 0,
+                "width": 78.57142857142857,
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://wookie.codesubmit.io/static/posters/d6822b7b-48bb-4b78-ad5e-9ba04c517ec8.jpg",
+              }
+            }
+            style={
+              Object {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-between",
+              "marginLeft": 15.714285714285714,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "Jost-SemiBold",
+                "fontSize": 25.142857142857142,
+              }
+            }
+          >
+            The Dark Knight
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontFamily": "Jost-Regular",
+                "fontSize": 22,
+                "width": 345.71428571428567,
+              }
+            }
+          >
+            Classification: 
+            13+
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontFamily": "Jost-Regular",
+                "fontSize": 22,
+                "width": 345.71428571428567,
+              }
+            }
+          >
+            Rating: 
+            9
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontFamily": "Jost-Regular",
+                "fontSize": 22,
+                "width": 345.71428571428567,
+              }
+            }
+          >
+            Description: 
+            Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginTop": 22.213235294117645,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#a49e9e",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 157.14285714285714,
+                "marginLeft": 0,
+                "width": 78.57142857142857,
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://wookie.codesubmit.io/static/posters/0bf56a90-5f7b-4108-9d0b-01ad77f0a310.jpg",
+              }
+            }
+            style={
+              Object {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-between",
+              "marginLeft": 15.714285714285714,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "Jost-SemiBold",
+                "fontSize": 25.142857142857142,
+              }
+            }
+          >
+            A Clockwork Orange
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontFamily": "Jost-Regular",
+                "fontSize": 22,
+                "width": 345.71428571428567,
+              }
+            }
+          >
+            Classification: 
+            18+
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontFamily": "Jost-Regular",
+                "fontSize": 22,
+                "width": 345.71428571428567,
+              }
+            }
+          >
+            Rating: 
+            8.3
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontFamily": "Jost-Regular",
+                "fontSize": 22,
+                "width": 345.71428571428567,
+              }
+            }
+          >
+            Description: 
+            Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of "droogs". But he's a boy who also likes Beethoven's Ninth and a bit of "the old in-out, in-out". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Movies renders test Should render posters list 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "backdrop": "https://wookie.codesubmit.io/static/backdrops/d6822b7b-48bb-4b78-ad5e-9ba04c517ec8.jpg",
+        "cast": Array [
+          "Christian Bale",
+          "Heath Ledger",
+          "Aaron Eckhart",
+        ],
+        "classification": "13+",
+        "director": "Christopher Nolan",
+        "genres": Array [
+          "Action",
+          "Crime",
+          "Drama",
+        ],
+        "id": "d6822b7b-48bb-4b78-ad5e-9ba04c517ec8",
+        "imdb_rating": 9,
+        "length": "2h 32min",
+        "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+        "poster": "https://wookie.codesubmit.io/static/posters/d6822b7b-48bb-4b78-ad5e-9ba04c517ec8.jpg",
+        "released_on": "2008-07-16T00:00:00",
+        "slug": "the-dark-knight-2008",
+        "title": "The Dark Knight",
+      },
+      Object {
+        "backdrop": "https://wookie.codesubmit.io/static/backdrops/0bf56a90-5f7b-4108-9d0b-01ad77f0a310.jpg",
+        "cast": Array [
+          "Malcolm McDowell",
+          "Patick Magee",
+          "Michael Bates",
+        ],
+        "classification": "18+",
+        "director": "Stanley Kubrick",
+        "genres": Array [
+          "Crime",
+          "Drama",
+          "Sci-Fi",
+        ],
+        "id": "0bf56a90-5f7b-4108-9d0b-01ad77f0a310",
+        "imdb_rating": 8.3,
+        "length": "2h 16min",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \\"droogs\\". But he's a boy who also likes Beethoven's Ninth and a bit of \\"the old in-out, in-out\\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "poster": "https://wookie.codesubmit.io/static/posters/0bf56a90-5f7b-4108-9d0b-01ad77f0a310.jpg",
+        "released_on": "1971-12-18T00:00:00",
+        "slug": "a-clockwork-orange-1971",
+        "title": "A Clockwork Orange",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  initialNumToRender={5}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={5}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  stickyHeaderIndices={Array []}
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#a49e9e",
+              "justifyContent": "center",
+            },
+            Object {
+              "height": 282.8571428571429,
+              "marginLeft": 15.714285714285714,
+              "width": 141.42857142857144,
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://wookie.codesubmit.io/static/posters/d6822b7b-48bb-4b78-ad5e-9ba04c517ec8.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#a49e9e",
+              "justifyContent": "center",
+            },
+            Object {
+              "height": 282.8571428571429,
+              "marginLeft": 15.714285714285714,
+              "width": 141.42857142857144,
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://wookie.codesubmit.io/static/posters/0bf56a90-5f7b-4108-9d0b-01ad77f0a310.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
