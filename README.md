@@ -4,4 +4,4 @@ Movies list app. New practices for building the architecture of React Native and
 
 ### Main technologies
 
-React Native, Redux Toolkit, TS
+React Native, Redux Toolkit, TS, JEST
