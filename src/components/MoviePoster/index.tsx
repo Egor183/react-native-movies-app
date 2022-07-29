@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Image, Pressable, Text } from 'react-native';
 import { moderateScale } from 'react-native-size-matters';
-import { DEFAULT_POSTER_WIDTH } from './constants/cnstants';
+import { DEFAULT_MOVIE_POSTER_WIDTH } from './constants/cnstants';
 import { calculateFontSize, calculatePosterSizes } from './helpers/helpers';
 
 import styles from './styles';
@@ -17,7 +17,7 @@ const MoviePoster: React.FC<Props> = ({
   onPress = null,
   uri,
   gap = 0,
-  width = DEFAULT_POSTER_WIDTH,
+  width = DEFAULT_MOVIE_POSTER_WIDTH,
 }) => (
   <Pressable
     style={[

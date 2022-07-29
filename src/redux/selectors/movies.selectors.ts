@@ -1,6 +1,6 @@
 import { MovieType } from '@src/types/movies.types';
 import { createSelector } from 'reselect';
-import { GroupedPostersType, MoviesType } from '../types/movies.types';
+import { GroupedMoviePostersType, MoviesType } from '../types/movies.types';
 import { RootState } from '../store';
 
 const selectMovies = createSelector(
@@ -8,20 +8,23 @@ const selectMovies = createSelector(
   movies => movies,
 );
 
-export const selectGroupedPosters = createSelector(
+export const selectGroupedMoviePosters = createSelector(
   selectMovies,
   (movies: MoviesType) => {
-    return movies.reduce((result: GroupedPostersType, movie: MovieType) => {
-      movie.genres.forEach((genre: string) => {
-        const genrePosters = result[genre] ? result[genre] : [];
-        result[genre] = [
-          ...genrePosters,
-          { id: movie.id, poster: movie.poster },
-        ];
-      });
+    return movies.reduce(
+      (result: GroupedMoviePostersType, movie: MovieType) => {
+        movie.genres.forEach((genre: string) => {
+          const genrePosters = result[genre] ? result[genre] : [];
+          result[genre] = [
+            ...genrePosters,
+            { id: movie.id, poster: movie.poster },
+          ];
+        });
 
-      return result;
-    }, {});
+        return result;
+      },
+      {},
+    );
   },
 );
 

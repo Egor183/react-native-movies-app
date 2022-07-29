@@ -4,7 +4,7 @@ import { LoadingStateType } from '../types/loading.types';
 type ActionsCreatorsType = {
   [creator: string]: (state: LoadingStateType) => void;
 };
-type AsyncThunkType = AsyncThunk<void, void, {}>;
+type AsyncThunkType = AsyncThunk<any, any, {}>;
 
 export const handleSetLoading = (
   thunks: AsyncThunkType[],

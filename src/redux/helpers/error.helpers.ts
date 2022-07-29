@@ -6,7 +6,7 @@ import { ErrorStateType } from './../types/error.types';
 type ActionsCreatorsType = {
   [creator: string]: (state: ErrorStateType) => void;
 };
-type AsyncThunkType = AsyncThunk<void, void, {}>;
+type AsyncThunkType = AsyncThunk<any, any, {}>;
 
 export const handleSetError = (
   thunks: AsyncThunkType[],

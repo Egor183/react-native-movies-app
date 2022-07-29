@@ -1,4 +1,4 @@
-import { MovieType, PosterType } from '@src/types/movies.types';
+import { MovieType, MoviePosterType } from '@src/types/movies.types';
 
 export type MoviesType = MovieType[];
 
@@ -7,4 +7,4 @@ export type MovieStateType = {
   foundMovies: MoviesType;
 };
 
-export type GroupedPostersType = { [key: string]: PosterType[] };
+export type GroupedMoviePostersType = { [key: string]: MoviePosterType[] };

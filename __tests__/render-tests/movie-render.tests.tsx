@@ -6,7 +6,7 @@ import {
 import { navigate } from '@src/modules/Navigation/actions';
 import { FlatList } from 'react-native';
 import renderer from 'react-test-renderer';
-import { MovieType, PosterType } from '@src/types/movies.types';
+import { MovieType, MoviePosterType } from '@src/types/movies.types';
 import FoundMovie from '@src/screens/Search/components/FoundMovie';
 import MoviePoster from '@src/components/MoviePoster';
 import { MOCK_MOVIES_LIST } from '../../__mocks__/mock-data';
@@ -52,7 +52,7 @@ describe('Movies renders test', () => {
   });
 
   it('Should render posters list', () => {
-    type RenderItemProps = { item: PosterType };
+    type RenderItemProps = { item: MoviePosterType };
 
     const renderItem = ({ item }: RenderItemProps) => {
       const handlePress = () => {

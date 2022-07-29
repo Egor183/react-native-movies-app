@@ -3,11 +3,11 @@ import { useFocusEffect } from '@react-navigation/native';
 import { useAppDispatch } from '@src/hooks/useAppDispatch.hook';
 import { useAppSelector } from '@src/hooks/useAppSelector.hook';
 import { fetchMovies } from '@src/redux/thunks/movies.thunks';
-import { selectGroupedPosters } from '@src/redux/selectors/movies.selectors';
+import { selectGroupedMoviePosters } from '@src/redux/selectors/movies.selectors';
 
 export const useFetchMovies = () => {
   const dispatch = useAppDispatch();
-  const groupedPosters = useAppSelector(selectGroupedPosters);
+  const groupedMoviePosters = useAppSelector(selectGroupedMoviePosters);
 
   useFocusEffect(
     useCallback(() => {
@@ -15,5 +15,8 @@ export const useFetchMovies = () => {
     }, [dispatch]),
   );
 
-  return useMemo(() => Object.entries(groupedPosters), [groupedPosters]);
+  return useMemo(
+    () => Object.entries(groupedMoviePosters),
+    [groupedMoviePosters],
+  );
 };

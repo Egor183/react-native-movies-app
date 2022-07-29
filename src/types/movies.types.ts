@@ -13,12 +13,12 @@ export type MovieType = {
   classification: string;
 };
 
-export type PosterType = {
+export type MoviePosterType = {
   id: string;
   poster: string;
 };
 
 export type PostersSliderType = {
   genre: string;
-  posters: PosterType[];
+  posters: MoviePosterType[];
 };
